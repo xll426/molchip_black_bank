@@ -6,7 +6,7 @@ import argparse
 import torch.nn as nn
 
 # 导入你最新的模型定义
-from model import CornerYOLOOptimized
+from blackbank.model import CornerYOLOOptimized
 
 class DetectOnlyWrapper(torch.nn.Module):
     """
