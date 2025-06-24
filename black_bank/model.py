@@ -1,4 +1,4 @@
-#model.py
+# model.py - CornerYOLO optimized model
 import torch
 import torch.nn as nn
 import torch.onnx

@@ -6,7 +6,7 @@ import math
 import os
 import argparse
 import torch.nn as nn
-from model import CornerYOLOOptimized
+from black_bank.model import CornerYOLOOptimized
 
 def save_seg_heatmap(seg_out, input_w=640, input_h=352, save_path="seg_heatmap.jpg"):
     seg = seg_out.squeeze(0).squeeze(0).cpu().numpy()
