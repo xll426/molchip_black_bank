@@ -1,4 +1,4 @@
-# data.py
+# dataset.py - data loading and augmentation
 import os
 import json
 import math

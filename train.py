@@ -8,8 +8,8 @@ import torch.optim as optim
 import torch.nn.functional as F
 from torch.utils.data import DataLoader
 import torch.nn as nn
-from data import TVCornerDataset
-from model import CornerYOLOOptimized
+from black_bank.dataset import TVCornerDataset
+from black_bank.model import CornerYOLOOptimized
 
 import math
 import cv2
@@ -20,7 +20,7 @@ import torch.nn.functional as F
 import numpy as np
 
 
-from data import TVCornerDataset, build_train_transform,build_val_transform
+from black_bank.dataset import TVCornerDataset, build_train_transform,build_val_transform
 import os
 import random
 import csv
